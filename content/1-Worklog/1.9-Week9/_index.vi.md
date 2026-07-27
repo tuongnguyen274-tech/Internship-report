@@ -29,7 +29,7 @@ pre: " <b> 1.9. </b> "
 * **Điều khiển Giao diện & Lưu trữ Dữ liệu:** Đạt được sự xác thực telemetry full-stack cho việc ghi đè khóa/mở khóa từ xa qua giao diện web và xác minh tính toàn vẹn lưu trữ dữ liệu trên lớp MySQL.
 * **Quyền Kiểm soát Quản trị:** Hoàn thành UAT cho các chế độ ghi đè thủ công của quản trị viên, chu kỳ xoay vòng thông tin xác thực và các cơ chế an toàn xử lý phiên làm việc.
 
-* **Kiểm toán Tiến độ Lịch sử:** Hoàn thành 4 báo cáo tiến độ hệ thống hóa các cột mốc dự án từ Tuần 1 đến Tuần 12.
+* **Kiểm toán Tiến độ Lịch sử:** Hoàn thành 4 báo cáo tiến độ hệ thống hóa các cột mốc dự án từ Tuần 1 đến Tuần 9.
 * **Sản phẩm Bàn giao Core:** Xuất bản 3 bài viết blog kỹ thuật tóm tắt các bài học kinh nghiệm của dự án và hoàn thiện đề xuất dự án tổng thể.
 
 * **Lan tỏa Sự kiện & Workshop:** Tóm tắt các bài học chính từ 3 sự kiện kỹ thuật đã tham dự và chủ trì thành công một buổi workshop kỹ thuật.

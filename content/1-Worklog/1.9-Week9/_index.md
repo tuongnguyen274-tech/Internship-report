@@ -29,7 +29,7 @@ pre: " <b> 1.9. </b> "
 * **UI Controls & Data Persistence:** Achieved full-stack telemetry validation for remote lock/unlock overrides via the web UI and verified data persistence integrity across the MySQL layer.
 * **Administrative Controls:** Completed UAT on administrative manual overrides, credential rotation loops, and session handling fail-safes.
 
-* **Historical Progress Audit:** Completed four progress reports systematically documenting project milestones from Week 1 through Week 12.
+* **Historical Progress Audit:** Completed four progress reports systematically documenting project milestones from Week 1 through Week 9.
 * **Core Deliverables:** Published 3 technical blog posts summarizing project takeaways and finalized the overall project proposal.
 
 * **Event & Workshop Dissemination:** Documented key takeaways from 3 technical events and hosted a technical workshop session.
