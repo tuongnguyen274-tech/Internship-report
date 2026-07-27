@@ -38,3 +38,12 @@ Trong quá trình thực tập, tôi đã tham gia các sự kiện dưới đâ
 &emsp;**Địa điểm:** Tầng 26, Bitexco Tower, Số 02 Đường Hải Triều, Phường Sài Gòn, TP. Hồ Chí Minh  
 
 &emsp;**Vai trò:** Người tham dự
+
+### [Sự kiện 4](4.4-Event4/)  
+&emsp;**Tên sự kiện:** FCAJ x AABW
+
+&emsp;**Thời gian:** 09:00, ngày 25 tháng 07 năm 2026  
+
+&emsp;**Địa điểm:** Tầng 26, Bitexco Tower, Số 02 Đường Hải Triều, Phường Sài Gòn, TP. Hồ Chí Minh  
+
+&emsp;**Vai trò:** Người tham dự

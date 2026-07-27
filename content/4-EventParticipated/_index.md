@@ -38,3 +38,15 @@ During my internship, I participated in two events. Each one was a memorable exp
 &emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
 
 &emsp;**Role:** Attendee  
+
+---
+
+### [Event 4](4.4-Event4/)  
+&emsp;**Event Name:** FCAJ x AABW
+
+&emsp;**Date & Time:** 09:00, July 25, 2026  
+
+&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
+
+&emsp;**Role:** Attendee  
+
