@@ -31,10 +31,10 @@ Mô hình được chia làm 2 phần chính hoạt động ăn ý với nhau:
 * **Quy trình:** Người đứng trước camera → Chip quét mặt → Khớp dữ liệu → Khóa mở ngay lập tức (độ trễ chưa tới $0.5$ giây).
 
 ### B. Tại Đám mây (Hạ tầng AWS)
-Sau khi cửa mở thành công, thiết bị mới gửi "báo cáo" lên đám mây để lưu vết lịch sử ra vào:
+Sau khi cửa mở thành công, thiết bị mới gửi "báo cáo" lên đám mây:
 
 * **AWS IoT Core:** Nhận tin nhắn báo cáo từ thiết bị gửi lên.
-* **AWS Lambda:** Tự động "thức dậy" nhận dữ liệu và lưu lịch sử ra vào vào cơ sở dữ liệu (**Amazon RDS**).
+* **AWS Lambda:** Tự động "thức dậy" nhận dữ liệu.
 * **AWS Amplify & API Gateway:** Tạo một trang Web cho quản trị viên. Admin có thể ngồi từ xa:
   * Xem ai vừa ra vào theo thời gian thực.
   * Thêm/Xóa người dùng mới.

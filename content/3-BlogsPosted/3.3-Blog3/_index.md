@@ -31,10 +31,10 @@ The architecture is divided into two main components working seamlessly together
 * **Workflow:** Person stands in front of camera → Chip scans face → Data matches → Lock opens instantly (latency under $0.5$ seconds).
 
 ### B. On the Cloud (AWS Infrastructure)
-Once the door unlocks successfully, the device sends a "report" to the cloud to log access history:
+Once the door unlocks successfully, the device sends a "report" to the cloud:
 
 * **AWS IoT Core:** Receives reported messages sent from the edge device.
-* **AWS Lambda:** Automatically triggers to process incoming data and store access logs in the database (**Amazon RDS**).
+* **AWS Lambda:** Automatically triggers to process incoming data.
 * **AWS Amplify & API Gateway:** Provides a Web dashboard for administrators. Admins can remotely:
   * View real-time access logs.
   * Add/Remove users.
