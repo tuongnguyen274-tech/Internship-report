@@ -28,7 +28,7 @@ The architecture is divided into two main components working seamlessly together
 
 ### A. At the Door Device (ESP32-CAM)
 * All facial recognition processing is handled directly on the ESP32-CAM microcontroller (**Edge-AI**).
-* **Workflow:** Person stands in front of camera $\rightarrow$ Chip scans face $\rightarrow$ Data matches $\rightarrow$ Lock opens instantly (latency under $0.5$ seconds).
+* **Workflow:** Person stands in front of camera → Chip scans face → Data matches → Lock opens instantly (latency under $0.5$ seconds).
 
 ### B. On the Cloud (AWS Infrastructure)
 Once the door unlocks successfully, the device sends a "report" to the cloud to log access history:

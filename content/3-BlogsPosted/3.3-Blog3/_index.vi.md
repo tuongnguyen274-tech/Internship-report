@@ -28,10 +28,7 @@ Mô hình được chia làm 2 phần chính hoạt động ăn ý với nhau:
 
 ### A. Tại thiết bị ở cửa (ESP32-CAM)
 * Mọi việc nhận diện khuôn mặt đều được xử lý trực tiếp ngay trên con chip ESP32-CAM (Edge-AI).
-* **Quy trình:** Người đứng trước camera $
-ightarrow$ Chip quét mặt $
-ightarrow$ Khớp dữ liệu $
-ightarrow$ Khóa mở ngay lập tức (độ trễ chưa tới $0.5$ giây).
+* **Quy trình:** Người đứng trước camera → Chip quét mặt → Khớp dữ liệu → Khóa mở ngay lập tức (độ trễ chưa tới $0.5$ giây).
 
 ### B. Tại Đám mây (Hạ tầng AWS)
 Sau khi cửa mở thành công, thiết bị mới gửi "báo cáo" lên đám mây để lưu vết lịch sử ra vào:
