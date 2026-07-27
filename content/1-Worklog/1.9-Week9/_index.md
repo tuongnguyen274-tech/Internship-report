@@ -9,7 +9,7 @@ pre: " <b> 1.9. </b> "
 ### Week 9 Objectives
 * **Hardware & Edge Verification:** Conduct end-to-end ESP32 integration testing via remote MQTT frames and benchmark real-time edge face-recognition accuracy.
 * **Full-Stack & Telemetry Validation:** Test web interface door override controls and audit the user enrollment flow down to the MySQL persistence layer.
-* **Comprehensive Progress Reporting:** Synthesize historical project milestones into structured reports covering Weeks 1 through 12 and attended technical events.
+* **Comprehensive Progress Reporting:** Synthesize historical project milestones into structured reports covering Weeks 1 through 9 and attended technical events.
 * **Final Project Deliverables & Wrap-Up:** Finalize the project proposal, publish 3 technical blog posts, conduct a technical workshop, complete self-assessments, and hold feedback sessions.
 
 ### Tasks Executed This Week

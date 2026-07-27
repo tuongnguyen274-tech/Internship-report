@@ -8,7 +8,7 @@ pre: " <b> 1.9. </b> "
 ### Mục tiêu Tuần 9
 * **Kiểm thử Phần cứng & Thiết bị Biên:** Thực hiện kiểm thử tích hợp toàn trình (end-to-end) cho vi điều khiển ESP32 thông qua các khung truyền MQTT từ xa và đánh giá độ chính xác của mô hình nhận diện khuôn mặt thời gian thực trên thiết bị biên.
 * **Xác thực Full-Stack & Dữ liệu Từ xa (Telemetry):** Kiểm thử tính năng điều khiển ghi đè (override) đóng/mở cửa trên giao diện web và kiểm tra quy trình đăng ký người dùng xuống lớp lưu trữ dữ liệu MySQL.
-* **Báo cáo Tiến độ Tổng hợp:** Tổng hợp các cột mốc lịch sử của dự án thành các báo cáo có cấu trúc từ Tuần 1 đến Tuần 12 và các sự kiện kỹ thuật đã tham gia.
+* **Báo cáo Tiến độ Tổng hợp:** Tổng hợp các cột mốc lịch sử của dự án thành các báo cáo có cấu trúc từ Tuần 1 đến Tuần 9 và các sự kiện kỹ thuật đã tham gia.
 * **Sản phẩm Bàn giao & Hoàn tất Dự án:** Hoàn thiện đề xuất dự án (proposal), xuất bản 3 bài viết blog kỹ thuật, tổ chức một buổi workshop kỹ thuật, hoàn thành tự đánh giá và thực hiện các buổi ghi nhận phản hồi.
 
 ### Các công việc đã thực hiện trong tuần
