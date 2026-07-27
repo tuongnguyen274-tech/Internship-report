@@ -18,7 +18,7 @@ pre: " <b> 1.9. </b> "
 | 2 | - Thực hiện kiểm thử tích hợp trên phần cứng ESP32 thông qua chuỗi lệnh MQTT từ xa trên AWS IoT Core.<br>- Lập báo cáo tiến độ dự án cho Tuần 1 đến Tuần 3.<br>- Hoàn thiện và hoàn tất Đề xuất dự án tổng thể. | 27/07/2026 | 27/07/2026 | |
 | 3 | - Đánh giá hiệu năng (benchmark) quy trình nhận diện khuôn mặt trên thiết bị biên để xác thực khả năng kích hoạt chốt cửa tin cậy.<br>- Lập báo cáo tiến độ dự án cho Tuần 4 đến Tuần 6.<br>- Viết và xuất bản 3 bài viết Blog kỹ thuật. | 28/07/2026 | 28/07/2026 | |
 | 4 | - Chạy các bài kiểm thử telemetry để thực hiện thao tác khóa/mở khóa từ xa từ ứng dụng web.<br>- Lập báo cáo tiến độ dự án cho Tuần 7 đến Tuần 9.<br>- Chuẩn bị nội dung và chủ trì buổi Workshop kỹ thuật. | 29/07/2026 | 29/07/2026 | |
-| 5 | - Xác thực quy trình đăng ký người dùng và kiểm tra tính toàn vẹn lưu trữ dữ liệu xuống lớp MySQL.<br>- Lập báo cáo tiến độ dự án cho Tuần 10 đến Tuần 12.<br>- Hoàn thành tài liệu Tự đánh giá cuối kỳ. | 30/07/2026 | 30/07/2026 | |
+| 5 | - Xác thực quy trình đăng ký người dùng và kiểm tra tính toàn vẹn lưu trữ dữ liệu xuống lớp MySQL.<br>- Hoàn thành tài liệu Tự đánh giá cuối kỳ. | 30/07/2026 | 30/07/2026 | |
 | 6 | - Thực hiện UAT trên các tính năng quản trị (ghi đè thủ công, xoay vòng thông tin xác thực, trạng thái phiên làm việc).<br>- Lập báo cáo tổng kết cho 3 sự kiện kỹ thuật đã tham gia.<br>- Tổ chức buổi Chia sẻ kiến thức và thu thập Phản hồi từ giảng viên hướng dẫn/nhóm. | 31/07/2026 | 31/07/2026 | |
 
 ---
