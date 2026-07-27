@@ -6,7 +6,6 @@ chapter: false
 pre: " <b> 8. </b> "
 ---
 ### Project Materials
-[Source code](https://github.com/quannguyenlehai-cell/intership.git/)
 1. **Video demonstration:** [Google Drive video demo](https://drive.google.com/file/d/1zJK1xsgbdD0uGqovlookPtAyN7bwks7r/view?usp=sharing/)
 2. **Source code Dự án:** [GitHub repository](https://github.com/quannguyenlehai-cell/intership.git/)
 
