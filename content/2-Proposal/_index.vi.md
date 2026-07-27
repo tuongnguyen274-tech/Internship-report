@@ -32,7 +32,7 @@ Bằng cách xử lý nhận diện khuôn mặt trực tiếp trên ESP32-CAM, 
 ### 3. Kiến trúc giải pháp
 Dưới đây là kiến trúc hệ thống thể hiện quá trình xử lý AI tại thiết bị đầu cuối trên bo mạch ESP32-CAM AI-Thinker kết hợp với quản lý đám mây AWS:
 
-![Sơ đồ dự án](/images/2-Proposal/Diagram.jpg)
+![Sơ đồ dự án](Diagram.jpg)
 
 ### Các dịch vụ AWS được sử dụng
 - **AWS IoT Core**: Tiếp nhận các thông điệp MQTT mã hóa chứa lịch sử truy cập, dấu thời gian (timestamp), ID người dùng và ảnh chụp tùy chọn.

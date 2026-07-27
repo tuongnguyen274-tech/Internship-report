@@ -10,29 +10,29 @@ pre : " <b> 5.4.2 </b> "
 
  Trong bảng điêyf khiển, chọn All devices -> Things. Nhấp **Create things**
 
-![endpoint](/5-Workshop/5.4-Practice/Image/thing.png)
+![endpoint](thing.png)
 
 Chọn **Create single thing**.
 
-![endpoint](/5-Workshop/5.4-Practice/Image/create_thing.png)
+![endpoint](create_thing.png)
 
 
 Nhập **Thing name**.
 
-![endpoint](/5-Workshop/5.4-Practice/Image/a.png)
+![endpoint](a.png)
 
 Chọn **Auto-generate a new certificate (recommended).**
 
-![endpoint](/5-Workshop/5.4-Practice/Image/auto_gen.png)
+![endpoint](auto_gen.png)
 
 Đính kèm Policies to Certificate. Click **Create Thing**.
 
-![endpoint](/5-Workshop/5.4-Practice/Image/attach_poly.png)
+![endpoint](attach_poly.png)
 
 
 Chọn **Download all** để lấy Device Certificate, Private Key File, Private Key File, Amazon Root CA 1.
 
-![endpoint](/5-Workshop/5.4-Practice/Image/download.png)
+![endpoint](download.png)
 
 
 
@@ -40,28 +40,28 @@ Chọn **Download all** để lấy Device Certificate, Private Key File, Privat
 
 Mở bảng điều khiển AWS Management và điều hướng tới AWS Amplify. Bấm **Create new app** (hoặc Host web app).
 
-![endpoint](/5-Workshop/5.4-Practice/Image/create_app.png)
+![endpoint](create_app.png)
 
 
 Chọn git source code provider:
 
-![endpoint](/5-Workshop/5.4-Practice/Image/choose_git.png)
+![endpoint](choose_git.png)
 
 Ủy quyền AWS Amplify để truy cập vào tài khoản và chọn Repository và default target Branch.
 
-![endpoint](/5-Workshop/5.4-Practice/Image/select_branch.png)
+![endpoint](select_branch.png)
 
 Xem lại thông số kỹ thuật bản dựng để đảm bảo các thư mục đầu ra khớp với các tạo phẩm bản dựng của bạn (ví dụ: dist, build hoặc ./ cho HTML thô).
 
-![endpoint](/5-Workshop/5.4-Practice/Image/click_yaml.png)
+![endpoint](click_yaml.png)
 
 Chỉnh sửa baseDirectory (if need).
 
-![endpoint](/5-Workshop/5.4-Practice/Image/edit_folder.png)
+![endpoint](edit_folder.png)
 
 Bấm **Next**, sau đó **Save and deploy**
 
-![endpoint](/5-Workshop/5.4-Practice/Image/click_next.png)
+![endpoint](click_next.png)
 
 
 
@@ -149,122 +149,122 @@ npm install @codegenie/serverless-express
 
 Sẽ có bốn đối tượng.
 
-![endpoint](/5-Workshop/5.4-Practice/Image/inside_folder.png)
+![endpoint](inside_folder.png)
 
 Nén dự án lại.
 
 Mở Bảng điều khiển AWS Lambda và nhấp vào **Create function**.
 
-![endpoint](/5-Workshop/5.4-Practice/Image/Lam_con.png)
+![endpoint](Lam_con.png)
 
 Chọn **Author from scratch**, Đặt **Function name**, để  **Runtime** thành Node.js 24.x. Sau đó nhấn **Create function**.
 
-![endpoint](/5-Workshop/5.4-Practice/Image/setting_lam.png)
+![endpoint](setting_lam.png)
 
 Nhấn **Update** -> **Update from a .zip file**.
 
-![endpoint](/5-Workshop/5.4-Practice/Image/update_func.png)
+![endpoint](update_func.png)
 
 Chọn dự án đã nén ở bước cuối cùng và nhấp vào **Update**.
 
-![endpoint](/5-Workshop/5.4-Practice/Image/opopo.png)
+![endpoint](opopo.png)
 
 
 **For AWS Gateway**
 
 Trên bảng điều khiển AWS Lambda, Bấm **Configuration**. Chọn **Trigger**. Nhấn **Add trigger**.
 
-![endpoint](/5-Workshop/5.4-Practice/Image/triggier.png)
+![endpoint](triggier.png)
 
 Select **API Gateway**.
 
-![endpoint](/5-Workshop/5.4-Practice/Image/api_confi.png)
+![endpoint](api_confi.png)
 
 Tạo API mới, chọn **REST API** và bảo mật **OPEN**, sau đó nhấp vào **Add**.
 
-![endpoint](/5-Workshop/5.4-Practice/Image/rest_api.png)
+![endpoint](rest_api.png)
 
 
 Bấm vào **Yolohome_backend-A-API**.
 
-![endpoint](/5-Workshop/5.4-Practice/Image/click_api.png)
+![endpoint](click_api.png)
 
 Bấm vào **Resources**.
 
-![endpoint](/5-Workshop/5.4-Practice/Image/click_res.png)
+![endpoint](click_res.png)
 
 Nhấn **Create resource**.
 
-![endpoint](/5-Workshop/5.4-Practice/Image/create_res.png)
+![endpoint](create_res.png)
 
 
 Chọn **Proxy resource**, Chọn **Resource path**, Nhập **Resource name** và check **CORS (Cross Orgin Resource Sharing)**. Sau đó nhấn **Create resource**.
 
-![endpoint](/5-Workshop/5.4-Practice/Image/set_res.png)
+![endpoint](set_res.png)
 
 
 Chọn **Create method**.
 
-![endpoint](/5-Workshop/5.4-Practice/Image/create_met.png)
+![endpoint](create_met.png)
 
 Chọn **Method type** và **Lamda Proxy** là **Integration type**.
 
-![endpoint](/5-Workshop/5.4-Practice/Image/choose_met.png)
+![endpoint](choose_met.png)
 
 Chọn **Lambda function** tạo trước đó. 
 
 
-![endpoint](/5-Workshop/5.4-Practice/Image/choose_lam.png)
+![endpoint](choose_lam.png)
 
 Chọn **Create method**.
 
-![endpoint](/5-Workshop/5.4-Practice/Image/click_create.png)
+![endpoint](click_create.png)
 
 Thực hiện như trên cho các đường dẫn khác, sau đó nhấn **Deploy API**.
 
-![endpoint](/5-Workshop/5.4-Practice/Image/the_same.png)
+![endpoint](the_same.png)
 
 Chọn **default**, bấm **Deploy**.
 
-![endpoint](../Image/Deploy.png)
+![endpoint](/Deploy.png)
 
 Giờ đây, điểm cuối (hoạt động như một API REST) ​​có thể được sử dụng để kết nối giữa giao diện người dùng (AWS Amplify) và máy chủ (AWS Lambda).
 
-![endpoint](/5-Workshop/5.4-Practice/Image/use_end.png)
+![endpoint](use_end.png)
 
 
 **Cho AWS RDS**
 
 Mở bảng điều khiển Aurora và RDS, sau đó chọn **CREATE** trong **Create with full configuration**
 
-![endpoint](/5-Workshop/5.4-Practice/Image/choose_create.png)
+![endpoint](choose_create.png)
 
 Chọn **Engine type** (in this case is MySQL). Chọn **Easy create**.
-![endpoint](/5-Workshop/5.4-Practice/Image/clickmysql.png)
+![endpoint](clickmysql.png)
 
 
 Cuộn xuống cuối trang và nhấp vào **Create database**.
-![endpoint](/5-Workshop/5.4-Practice/Image/fix_create.png)
+![endpoint](fix_create.png)
 
 Nhấp vào cơ sở dữ liệu đã tạo.
 
-![endpoint](/5-Workshop/5.4-Practice/Image/create_data.png)
+![endpoint](create_data.png)
 
 Tìm **Connectivity & security**.
 
-![endpoint](/5-Workshop/5.4-Practice/Image/vpc.png)
+![endpoint](vpc.png)
 Bấm **CIDR/IP-Inbound**.
 
-![endpoint](/5-Workshop/5.4-Practice/Image/click_ib.png)
+![endpoint](click_ib.png)
 Bấm **Security group ID** link.
 
-![endpoint](/5-Workshop/5.4-Practice/Image/group_ip.png)
+![endpoint](group_ip.png)
 Bấm **Edit inbound rules**.
 
-![endpoint](/5-Workshop/5.4-Practice/Image/edit_ib.png)
+![endpoint](edit_ib.png)
 Chọn **My IP**. Sau đó **Save rules**.
 
-![endpoint](/5-Workshop/5.4-Practice/Image/my_ip.png)
+![endpoint](my_ip.png)
 Quay lại hàm Lambda đã tạo và tìm **Configuration** -> **Environment variables** để thêm các biến môi trường cho AWS IOT Core vá AWS RDS.
 
-![endpoint](/5-Workshop/5.4-Practice/Image/return.png)
+![endpoint](return.png)

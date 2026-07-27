@@ -68,6 +68,6 @@ Thể thức bảng đấu tạo ra một môi trường tương tác, nơi khá
 Khác với các bài thuyết trình slide truyền thống, bài trắc nghiệm đồng thời buộc người tham gia phải truy xuất kiến thức một cách linh hoạt và bảo vệ lập luận kỹ thuật của mình trước đồng đội chỉ trong vài giây.
 
 #### Một số hình ảnh sự kiện
-![Event3](/images/4-EventParticipated/Event3.png)
+![Event3](Event3.png)
 
 > Việc game hóa các khái niệm kiến trúc AWS thông qua các trận đấu loại đối đầu đồng thời đã chứng minh là một phương pháp hiệu quả để kiểm tra sự hiểu biết kỹ thuật thực sự, đồng thời xây dựng tinh thần đồng đội.

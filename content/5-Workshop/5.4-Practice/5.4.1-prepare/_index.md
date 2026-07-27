@@ -214,11 +214,11 @@ secret.h (For configurating wifi and AWS IOT Core topic)
 
 **For ESP32-Cam**
 Go to File > Examples > ESP32 > Camera and open CameraWebServer.
-![endpoint](../Image/an.png)
+![endpoint](an.png)
 
 Configure *ssid and *password wifi
 
-![endpoint](../Image/config.png)
+![endpoint](config.png)
 
 **For servo SG90**
 
@@ -230,4 +230,4 @@ Configure *ssid and *password wifi
 
 
 
-![endpoint](../Image/config_jump.jpg)
+![endpoint](config_jump.jpg)

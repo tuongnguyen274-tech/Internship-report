@@ -10,14 +10,14 @@ pre : " <b> 5.3.2 </b> "
 **AWS Lambda**
 
 Go to AWS Lambda Console -> Configuration -> Permissions.
-![endpoint](../Images/permission.png)
+![endpoint](permission.png)
 
 
 Click on the Role name under Execution role.
 
 Under Permissions policies, click Add permissions -> Create inline policy.
 
-![endpoint](../Images/policy.png)
+![endpoint](policy.png)
 
 
 Choose JSON and paste:
@@ -38,7 +38,7 @@ Choose JSON and paste:
 }
 
 ```
-![endpoint](../Images/json.png)
+![endpoint](json.png)
 
 Save the policy.
 
@@ -49,7 +49,7 @@ Open the AWS IoT Core Console and navigate to Security -> Policies. Click Create
 
 Enter a descriptive identifier
 
-![endpoint](../Images/name.png)
+![endpoint](name.png)
 
 Switch to the JSON view or visual editor and specify the fine-grained statement actions:
 
@@ -83,7 +83,7 @@ Switch to the JSON view or visual editor and specify the fine-grained statement 
 
 ```
 
-![endpoint](../Images/edit_j.png)
+![endpoint](edit_j.png)
 
 
 

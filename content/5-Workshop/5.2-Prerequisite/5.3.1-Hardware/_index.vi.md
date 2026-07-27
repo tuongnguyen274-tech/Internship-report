@@ -8,22 +8,23 @@ pre : " <b> 5.2.1 </b> "
 
 Về phần cứng, nên sử dụng.
 
+
 **ESP32**
 
-![endpoint](/5-Workshop/5.2-Prerequisite/Images/shopping_f.webp)
+![endpoint](shopping_f.webp)
 
 
 **ESP32-Cam**
-![endpoint](/5-Workshop/5.2-Prerequisite/Images/shopping.webp)
+![endpoint](shopping.webp)
 
 
 **Servo SG90**
-![endpoint](/5-Workshop/5.2-Prerequisite/Images/images.jpg)
+![endpoint](images.jpg)
 
 
 **Breadboard**
-![endpoint](/5-Workshop/5.2-Prerequisite/Images/breadboard.jpg)
+![endpoint](breadboard.jpg)
 
 
 **Jumper wire**
-![endpoint](/5-Workshop/5.2-Prerequisite/Images/wires.jpg)
+![endpoint](wires.jpg)

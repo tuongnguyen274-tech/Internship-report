@@ -11,20 +11,20 @@ For hardware, it is recommend to use.
 
 **ESP32**
 
-![endpoint](../Images/shopping_f.webp)
+![endpoint](shopping_f.webp)
 
 
 **ESP32-Cam**
-![endpoint](../Images/shopping.webp)
+![endpoint](shopping.webp)
 
 
 **Servo SG90**
-![endpoint](../Images/images.jpg)
+![endpoint](images.jpg)
 
 
 **Breadboard**
-![endpoint](../Images/breadboard.jpg)
+![endpoint](breadboard.jpg)
 
 
 **Jumper wire**
-![endpoint](../Images/wires.jpg)
+![endpoint](wires.jpg)

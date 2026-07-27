@@ -26,4 +26,4 @@ AWS IoT Core truyền gói dữ liệu mở khóa đến bộ vi điều khiển
 
 ESP32 diễn giải thông điệp và tạo ra tín hiệu điều khiển Điều chế độ rộng xung (PWM) để kích hoạt động cơ servo SG90, mở khóa chốt cửa vật lý.
 
-![endpoint](Images/graph.png)
+![endpoint](graph.png)

@@ -26,4 +26,4 @@ AWS IoT Core transmits an unlock payload to the main ESP32 microcontroller over 
 
 The ESP32 interprets the message and generates a Pulse Width Modulation (PWM) control signal to actuate the SG90 Servo motor, unlocking the physical door latch.
 
-![endpoint](Images/graph.png)
+![endpoint](graph.png)

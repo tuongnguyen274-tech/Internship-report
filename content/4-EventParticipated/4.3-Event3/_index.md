@@ -69,6 +69,6 @@ The bracket format created an interactive environment where audience members tra
 Unlike traditional slide presentations, the simultaneous quiz forced participants to recall knowledge dynamically and defend their technical logic to teammates within seconds.
 
 #### Some event photos
-![Event3](/images/4-EventParticipated/Event3.png)
+![Event3](Event3.png)
 
 > Gamifying AWS architectural concepts through simultaneous head-to-head matches proved to be an effective way to test true technical comprehension while building team camaraderie.
