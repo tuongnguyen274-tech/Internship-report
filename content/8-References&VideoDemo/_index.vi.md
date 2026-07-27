@@ -5,9 +5,12 @@ weight: 8
 chapter: false
 pre: " <b> 8. </b> "
 ---
+
+### Video demonstration
+<iframe src="https://drive.google.com/file/d/1zJK1xsgbdD0uGqovlookPtAyN7bwks7r/preview" width="100%" height="480" allow="autoplay" allowfullscreen></iframe>
+
 ### Project Materials
-1. **Video demonstration:** [Google Drive video demo](https://drive.google.com/file/d/1zJK1xsgbdD0uGqovlookPtAyN7bwks7r/view?usp=sharing/)
-2. **Source code Dự án:** [GitHub repository](https://github.com/quannguyenlehai-cell/intership.git/)
+1. **Source code Dự án:** [GitHub repository](https://github.com/quannguyenlehai-cell/intership.git/)
 
 ### Nguồn Worklog
 1. **AWS CLI Setup Guide:** [https://000011.awsstudygroup.com/vi/3-installcli/](https://000011.awsstudygroup.com/vi/3-installcli/)
