@@ -88,4 +88,4 @@ Một trợ lý nguyên bản AI (AI-native assistant) được thiết kế cho
 3. **Luồng công việc Tác tử (Agentic Workflows)**: Việc áp dụng Model Context Protocol (MCP) và các tác tử Bedrock giúp tinh gọn đáng kể các tác vụ doanh nghiệp thực tế.
 
 #### Một số hình ảnh sự kiện
-![Event4](Event4.png)
+![Event4](Event4.jpg)

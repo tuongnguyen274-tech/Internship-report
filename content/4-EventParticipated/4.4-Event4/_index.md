@@ -89,4 +89,4 @@ An AI-native assistant designed for Solution Architects to eliminate manual anal
 3. **Agentic Workflows**: Utilizing Model Context Protocol (MCP) and Bedrock agents significantly streamlines real-world enterprise tasks.
 
 #### Some event photos
-![Event4](Event4.png)
+![Event4](Event4.jpg)
