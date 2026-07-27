@@ -30,3 +30,5 @@ Sức mạnh thực sự của AWS IoT Core nằm ở khả năng kết nối kh
 IoT Rules Engine: Bắn dữ liệu thẳng về AWS Lambda để xử lý logic backend mà không cần dựng server 24/7.
 
 Database & Frontend Integration: Dễ dàng kết hợp với AWS RDS (MySQL) để lưu trữ thông tin người dùng và đẩy giao diện lên AWS Amplify.
+
+[Link Facebook](https://www.facebook.com/groups/awsstudygroupfcj/)

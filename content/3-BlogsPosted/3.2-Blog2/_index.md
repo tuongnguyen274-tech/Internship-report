@@ -31,3 +31,5 @@ The true power of AWS IoT Core lies in its seamless connectivity with other Serv
 IoT Rules Engine: Directly sends data to AWS Lambda for backend logic processing without needing a 24/7 server.
 
 Database & Frontend Integration: Easily integrate with AWS RDS (MySQL) to store user information and push interfaces to AWS Amplify.
+
+[Link Facebook](https://www.facebook.com/groups/awsstudygroupfcj/)
