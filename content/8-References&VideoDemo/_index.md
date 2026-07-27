@@ -1,5 +1,5 @@
 ---
-title: "References"
+title: "References & Video Demo"
 date: 2024-01-01
 weight: 8
 chapter: false

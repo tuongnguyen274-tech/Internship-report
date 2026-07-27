@@ -1,5 +1,5 @@
 ---
-title: "Tài liệu tham khảo"
+title: "Tài liệu tham khảo & Video Demo"
 date: 2024-01-01
 weight: 8
 chapter: false
