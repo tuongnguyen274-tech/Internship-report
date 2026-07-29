@@ -54,13 +54,13 @@ Dưới đây là kiến trúc hệ thống thể hiện quá trình xử lý AI
 ### 4. Triển khai kỹ thuật
 **Các giai đoạn triển khai**
 Dự án được chia thành hai phần — Thiết lập hệ thống nhận diện khuôn mặt và Phát triển nền tảng theo 3 giai đoạn:
-- **Giai đoạn 1:** Phần cứng Edge & Thiết lập nòng cốt Đám mây (Tuần 1–4)
+- **Giai đoạn 1:** Phần cứng Edge & Thiết lập nòng cốt Đám mây (Tuần 1–3)
   + Nạp phần mềm (flash) cho ESP32-CAM AI-Thinker vào bộ nhớ flash cục bộ.
   + Kết nối mạch SERVO SG90 và xác minh khả năng kích hoạt khóa không độ trễ khi khuôn mặt khớp dữ liệu ngoại tuyến.
   + Khởi tạo AWS IoT Core, tạo chứng chỉ X.509 cho thiết bị và xây dựng đường truyền thông điệp MQTTS.
   + Khởi tạo cơ sở dữ liệu AWS RDS, định nghĩa lược đồ (schema) và viết các hàm AWS Lambda để xử lý ghi nhật ký dữ liệu IoT.
 
-- **Giai đoạn 2:** Giao diện Web & Tích hợp hệ thống (Tuần 5–7)
+- **Giai đoạn 2:** Giao diện Web & Tích hợp hệ thống (Tuần 4–7)
   + AWS RDS cho quyền truy cập và quản lý vai trò của quản trị viên.
   + Xây dựng và triển khai bảng điều khiển web AWS Amplify kết nối với các điểm cuối AWS API Gateway.
   + Thực hiện kiểm thử toàn trình (end-to-end) từ nhận diện tại thiết bị, kích hoạt rơ-le đến ghi nhật ký bất đồng bộ trên đám mây.
@@ -77,8 +77,8 @@ Dự án được chia thành hai phần — Thiết lập hệ thống nhận d
 ### 5. Tiến độ & Các cột mốc
 **Tiến độ dự án**
 - Thực tập (Tháng 6-8): 2 tháng.
-    - Tuần 1-4: Nghiên cứu AWS và nâng cấp phần cứng.
-    - Tuần 5-7: Thiết kế và tinh chỉnh kiến trúc.
+    - Tuần 1-3: Nghiên cứu AWS và nâng cấp phần cứng.
+    - Tuần 4-7: Thiết kế và tinh chỉnh kiến trúc.
     - Tuần 8-9: Triển khai, kiểm thử và viết báo cáo.
 
 ### 6. Ước tính ngân sách

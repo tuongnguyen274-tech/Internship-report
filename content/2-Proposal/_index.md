@@ -55,13 +55,13 @@ Below is the system architecture highlighting local edge processing on the ESP32
 ### 4. Technical Implementation
 **Implementation Phases**
 This project has two parts—setting up Facial Recognition System and building the platform following 3 phases:
-- **Phase 1:** Edge Hardware & Cloud Core Setup (Weeks 1–4)
+- **Phase 1:** Edge Hardware & Cloud Core Setup (Weeks 1–3)
   + Flash ESP32-CAM AI-Thinker in local flash memory.
   + Connect SERVO SG90 circuit and verify zero-latency offline lock actuation upon face match.
   + Provision AWS IoT Core, generate device X.509 certificates, and build the MQTTS messaging pipeline.
   + Provision AWS RDS database instances, define schemas, and write AWS Lambda functions to handle IoT telemetry logging.
 
-- **Phase 2:** Web Interface & System Integration (Weeks 5–7)
+- **Phase 2:** Web Interface & System Integration (Weeks 4–7)
   + AWS RDS user pools for administrator access and role management.
   + Build and deploy the AWS Amplify web dashboard connected to AWS API Gateway endpoints.
   + Perform end-to-end operational testing across edge matching, relay triggering, and asynchronous cloud event logging.
