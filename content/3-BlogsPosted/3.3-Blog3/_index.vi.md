@@ -54,4 +54,4 @@ Sau khi cửa mở thành công, thiết bị mới gửi "báo cáo" lên đám
 
 Chỉ sau 2 tháng ngắn ngủi, từ một sinh viên còn bỡ ngỡ với khái niệm Cloud, việc tự tay xây dựng một dự án kết hợp giữa **IoT (ESP32-CAM)** và **Serverless (AWS Lambda)** đã giúp mình hiểu hơn rất nhiều về kiến trúc hệ thống thực tế.
 
-[Link Facebook](https://www.facebook.com/groups/awsstudygroupfcj/)
+[Link Facebook](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2225859081512385/?rdid=sfoEMkyGG9ZQMVUv#)

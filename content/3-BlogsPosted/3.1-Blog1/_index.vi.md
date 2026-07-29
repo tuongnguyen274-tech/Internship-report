@@ -50,4 +50,4 @@ Hàm Lambda không chạy liên tục mà chỉ "thức dậy" khi nhận đư�
 
 AWS Lambda là điểm khởi đầu lý tưởng cho sinh viên và người mới học Cloud nhờ loại bỏ rào cản về quản lý hạ tầng máy chủ và mạng. Người dùng chỉ cần tập trung vào việc viết đúng logic nghiệp vụ của mã nguồn là có thể triển khai sản phẩm thành công.
 
-[Link Facebook](https://www.facebook.com/groups/awsstudygroupfcj/)
+[Link Facebook](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2225735151524778/?rdid=LGtwaQotLkeDI1a7#)

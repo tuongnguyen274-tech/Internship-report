@@ -54,4 +54,4 @@ Once the door unlocks successfully, the device sends a "report" to the cloud:
 
 In just 2 short months, moving from a student new to Cloud concepts, building a hands-on project combining **IoT (ESP32-CAM)** and **Serverless (AWS Lambda)** has deepened my understanding of real-world system architecture.
 
-[Link Facebook](https://www.facebook.com/groups/awsstudygroupfcj/)
+[Link Facebook](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2225859081512385/?rdid=sfoEMkyGG9ZQMVUv#)

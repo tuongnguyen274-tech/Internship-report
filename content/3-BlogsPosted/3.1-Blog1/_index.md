@@ -50,4 +50,4 @@ A Lambda function does not run continuously; instead, it only "wakes up" when tr
 
 AWS Lambda is an ideal starting point for students and cloud beginners because it eliminates the barrier of server and network infrastructure management. Users can focus solely on writing correct business logic to successfully deploy their products.
 
-[Link Facebook](https://www.facebook.com/groups/awsstudygroupfcj/)
+[Link Facebook](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2225735151524778/?rdid=LGtwaQotLkeDI1a7#)
