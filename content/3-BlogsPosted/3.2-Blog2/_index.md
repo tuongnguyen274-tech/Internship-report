@@ -32,4 +32,4 @@ IoT Rules Engine: Directly sends data to AWS Lambda for backend logic processing
 
 Database & Frontend Integration: Easily integrate with AWS RDS (MySQL) to store user information and push interfaces to AWS Amplify.
 
-[Link Facebook](https://www.facebook.com/groups/awsstudygroupfcj/)
+[Link Facebook](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2225794871518806/?rdid=73emzcpWlVnQ2ms6#)

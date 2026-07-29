@@ -31,4 +31,4 @@ IoT Rules Engine: Bắn dữ liệu thẳng về AWS Lambda để xử lý logic
 
 Database & Frontend Integration: Dễ dàng kết hợp với AWS RDS (MySQL) để lưu trữ thông tin người dùng và đẩy giao diện lên AWS Amplify.
 
-[Link Facebook](https://www.facebook.com/groups/awsstudygroupfcj/)
+[Link Facebook](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2225794871518806/?rdid=73emzcpWlVnQ2ms6#)
