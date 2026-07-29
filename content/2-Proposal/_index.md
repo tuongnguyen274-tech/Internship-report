@@ -24,11 +24,11 @@ Traditional key-based, RFID, or cloud-only biometric systems face several operat
 An Edge-AI Access System with cloud management:
 * The ESP32-CAM AI-Thinker module captures image frames and runs face detection and recognition models locally.
 * Lambda asynchronously publishes access logs, visitor image snapshots, and status updates to AWS IoT Core.
-* Upon successful local match, the ESP32 immediately toggles a GPIO relay to unlock the door with minimal latency.
+* Upon successful local match, the ESP32 immediately toggles SERVO SG90 to unlock the door with minimal latency.
 * An AWS Amplify web portal backed by AWS API Gateway, AWS Lambda, and AWS RDS allows administrators to remotely manage enrolled users, trigger manual overrides, and inspect audit logs.
 
 ### Benefits and Return on Investment
-By processing facial recognition directly on the ESP32-CAM, this system guarantees zero-latency, offline access while completely eliminating recurring cloud AI fees. With hardware costs under $35 per door and a lightweight serverless backend, it reduces overall hardware and operating expenses by up to 90% compared to commercial alternatives—achieving full ROI in under two months.
+By processing facial recognition directly on the ESP32-CAM, this system guarantees zero-latency, offline access while completely eliminating recurring cloud AI fees. With hardware costs under $20 per door and a lightweight serverless backend, it reduces overall hardware and operating expenses by up to 90% compared to commercial alternatives—achieving full ROI in under two months.
 
 ### 3. Solution Architecture
 Below is the system architecture highlighting local edge processing on the ESP32-CAM AI-Thinker board paired with AWS cloud management:
@@ -57,7 +57,7 @@ Below is the system architecture highlighting local edge processing on the ESP32
 This project has two parts—setting up Facial Recognition System and building the platform following 3 phases:
 - **Phase 1:** Edge Hardware & Cloud Core Setup (Weeks 1–4)
   + Flash ESP32-CAM AI-Thinker in local flash memory.
-  + Connect GPIO relay circuit and verify zero-latency offline lock actuation upon face match.
+  + Connect SERVO SG90 circuit and verify zero-latency offline lock actuation upon face match.
   + Provision AWS IoT Core, generate device X.509 certificates, and build the MQTTS messaging pipeline.
   + Provision AWS RDS database instances, define schemas, and write AWS Lambda functions to handle IoT telemetry logging.
 
@@ -72,8 +72,8 @@ This project has two parts—setting up Facial Recognition System and building t
   + Finalize and deliver the technical project report.
 
 **Technical Requirements**
-- Hardware Component Requirements: ESP32-CAM (AI-Thinker), SERVO SG90, FTDI USB-to-TTL adapter (for flashing firmware), external 5V/2A power supply, and emergency override physical switch.
-- Weather Platform: ESP-IDF / Arduino IDE with face detection and recognition library, AWS IoT Core, AWS Lambda (Node.js/Python runtime), AWS RDS (PostgreSQL/MySQL), Amazon API Gateway, AWS Amplify, and Amazon Cognito, MQTTS (MQTT over TLS 1.2/1.3) using X.509 client certificates, HTTPS, and JWT-based API authorization.
+- **Hardware Component Requirements:** ESP32-CAM (AI-Thinker), SERVO SG90, FTDI USB-to-TTL adapter (for flashing firmware), external 5V/2A power supply, and emergency override physical switch.
+- **Software & Tech Stack:** ESP-IDF / Arduino IDE with face detection and recognition library, AWS IoT Core, AWS Lambda (Node.js/Python runtime), AWS RDS (PostgreSQL/MySQL), Amazon API Gateway, AWS Amplify, and Amazon Cognito, MQTTS (MQTT over TLS 1.2/1.3) using X.509 client certificates, HTTPS, and JWT-based API authorization.
 
 ### 5. Timeline & Milestones
 **Project Timeline**
@@ -118,6 +118,6 @@ Total: $23.285/month.
 - Sub-500ms Latency: Local inference triggers relay instantly.
 - Resource Efficiency: Serverless backend scales dynamically, minimizing idle cloud costs.
 #### Long-term Value
-- Low Cost Per Node: ~$10 per lock assembly vs. expensive commercial terminals.
+- Low Cost Per Node: ~$20 per lock assembly vs. expensive commercial terminals.
 - Enterprise Scalability: Single AWS Amplify dashboard manages multiple door nodes.
 - Audit Compliance: Centralized RDS logs provide reliable access history.

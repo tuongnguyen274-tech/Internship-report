@@ -23,11 +23,11 @@ Các hệ thống kiểm soát sinh trắc học truyền thống sử dụng ch
 Hệ thống kiểm soát cửa Edge-AI kết hợp quản lý đám mây:
 * Bo mạch ESP32-CAM AI-Thinker chụp hình ảnh và chạy các mô hình phát hiện, nhận diện khuôn mặt trực tiếp tại chỗ.
 * Lambda gửi bất đồng bộ nhật ký truy cập, ảnh chụp khách truy cập và cập nhật trạng thái lên AWS IoT Core.
-* Khi xác thực khuôn mặt thành công, ESP32 lập tức kích hoạt rơ-le GPIO để mở khóa cửa với độ trễ tối thiểu.
+* Khi xác thực khuôn mặt thành công, ESP32 lập tức kích hoạt SERVO SG90  để mở khóa cửa với độ trễ tối thiểu.
 * Cổng thông tin web AWS Amplify được hỗ trợ bởi AWS API Gateway, AWS Lambda và AWS RDS cho phép quản trị viên quản lý người dùng từ xa, kích hoạt mở cửa thủ công và kiểm tra nhật ký hệ thống.
 
 ### Lợi ích và Tỷ suất hoàn vốn (ROI)
-Bằng cách xử lý nhận diện khuôn mặt trực tiếp trên ESP32-CAM, hệ thống đảm bảo độ trễ bằng 0, khả năng truy cập ngoại tuyến hoàn toàn mà không phát sinh chi phí xử lý AI định kỳ trên đám mây. Với chi phí phần cứng dưới $35 cho mỗi cửa cùng hệ thống backend serverless tinh gọn, giải pháp giúp giảm tới 90% chi phí phần cứng và vận hành so với các giải pháp thương mại tương đương — đạt điểm hòa vốn (ROI) trong vòng dưới 2 tháng.
+Bằng cách xử lý nhận diện khuôn mặt trực tiếp trên ESP32-CAM, hệ thống đảm bảo độ trễ bằng 0, khả năng truy cập ngoại tuyến hoàn toàn mà không phát sinh chi phí xử lý AI định kỳ trên đám mây. Với chi phí phần cứng dưới $20 cho mỗi cửa cùng hệ thống backend serverless tinh gọn, giải pháp giúp giảm tới 90% chi phí phần cứng và vận hành so với các giải pháp thương mại tương đương — đạt điểm hòa vốn (ROI) trong vòng dưới 2 tháng.
 
 ### 3. Kiến trúc giải pháp
 Dưới đây là kiến trúc hệ thống thể hiện quá trình xử lý AI tại thiết bị đầu cuối trên bo mạch ESP32-CAM AI-Thinker kết hợp với quản lý đám mây AWS:
@@ -56,7 +56,7 @@ Dưới đây là kiến trúc hệ thống thể hiện quá trình xử lý AI
 Dự án được chia thành hai phần — Thiết lập hệ thống nhận diện khuôn mặt và Phát triển nền tảng theo 3 giai đoạn:
 - **Giai đoạn 1:** Phần cứng Edge & Thiết lập nòng cốt Đám mây (Tuần 1–4)
   + Nạp phần mềm (flash) cho ESP32-CAM AI-Thinker vào bộ nhớ flash cục bộ.
-  + Kết nối mạch rơ-le GPIO và xác minh khả năng kích hoạt khóa không độ trễ khi khuôn mặt khớp dữ liệu ngoại tuyến.
+  + Kết nối mạch SERVO SG90 và xác minh khả năng kích hoạt khóa không độ trễ khi khuôn mặt khớp dữ liệu ngoại tuyến.
   + Khởi tạo AWS IoT Core, tạo chứng chỉ X.509 cho thiết bị và xây dựng đường truyền thông điệp MQTTS.
   + Khởi tạo cơ sở dữ liệu AWS RDS, định nghĩa lược đồ (schema) và viết các hàm AWS Lambda để xử lý ghi nhật ký dữ liệu IoT.
 
@@ -77,8 +77,8 @@ Dự án được chia thành hai phần — Thiết lập hệ thống nhận d
 ### 5. Tiến độ & Các cột mốc
 **Tiến độ dự án**
 - Thực tập (Tháng 6-8): 2 tháng.
-    - Tuần 1-3: Nghiên cứu AWS và nâng cấp phần cứng.
-    - Tuần 4-7: Thiết kế và tinh chỉnh kiến trúc.
+    - Tuần 1-4: Nghiên cứu AWS và nâng cấp phần cứng.
+    - Tuần 5-7: Thiết kế và tinh chỉnh kiến trúc.
     - Tuần 8-9: Triển khai, kiểm thử và viết báo cáo.
 
 ### 6. Ước tính ngân sách
@@ -118,6 +118,6 @@ Tổng cộng: $23.285/tháng.
 - Độ trễ dưới 500ms: Việc suy luận cục bộ kích hoạt rơ-le ngay lập tức.
 - Tối ưu hóa tài nguyên: Backend serverless tự động mở rộng linh hoạt, giảm thiểu chi phí khi hệ thống nhàn rỗi.
 #### Giá trị lâu dài
-- Chi phí trên mỗi nút thấp: ~$10 cho mỗi cụm khóa so với các thiết bị thương mại đắt tiền.
+- Chi phí trên mỗi nút thấp: ~$20 cho mỗi cụm khóa so với các thiết bị thương mại đắt tiền.
 - Khả năng mở rộng quy mô doanh nghiệp: Bảng điều khiển AWS Amplify duy nhất có thể quản lý nhiều nút cửa khác nhau.
 - Tuân thủ kiểm toán: Nhật ký RDS tập trung cung cấp lịch sử ra vào đáng tin cậy.
