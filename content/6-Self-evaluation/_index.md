@@ -17,10 +17,10 @@ To objectively reflect on my internship period, I would like to evaluate myself 
 | --- | ----------------------------------- | ------------------------------------------------------------------------------------------------ | ---- | ---- | ------- |
 | 1   | **Professional knowledge & skills** | Understanding of the field, applying knowledge in practice, proficiency with tools, work quality | ☐    | ✅    | ☐       |
 | 2   | **Ability to learn**                | Ability to absorb new knowledge and learn quickly                                                | ☐    | ✅    | ☐       |
-| 3   | **Proactiveness**                   | Taking initiative, seeking out tasks without waiting for instructions                            | ☐    | ☐    | ✅       |
+| 3   | **Proactiveness**                   | Taking initiative, seeking out tasks without waiting for instructions                            | ☐    | ✅    | ☐       |
 | 4   | **Sense of responsibility**         | Completing tasks on time and ensuring quality                                                    | ✅    | ☐    | ☐       |
 | 5   | **Discipline**                      | Adhering to schedules, rules, and work processes                                                 | ✅    | ☐    | ☐       |
-| 6   | **Progressive mindset**             | Willingness to receive feedback and improve oneself                                              | ☐    | ✅    | ☐       |
+| 6   | **Progressive mindset**             | Willingness to receive feedback and improve oneself                                              | ✅    | ☐    | ☐       |
 | 7   | **Communication**                   | Presenting ideas and reporting work clearly                                                      | ☐    | ☐    | ✅       |
 | 8   | **Teamwork**                        | Working effectively with colleagues and participating in teams                                   | ✅    | ☐    | ☐       |
 | 9   | **Professional conduct**            | Respecting colleagues, partners, and the work environment                                        | ✅    | ☐    | ☐       |
@@ -32,5 +32,4 @@ To objectively reflect on my internship period, I would like to evaluate myself 
 
 * Take initiative by proposing solutions and asking for new tasks immediately after finishing my current work instead of waiting for directions.
 * Enhance communication skills in both daily interactions and professional contexts, including handling situations effectively
-* Actively ask my mentor or manager for specific, constructive feedback after completing major project milestones.
 * Strengthen my core technical knowledge so I can investigate root causes and fix issues independently before asking for help.
